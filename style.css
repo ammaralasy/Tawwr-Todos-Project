@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to left, rgba(215, 139, 240,0.75), rgba(98, 42, 250,0.75));
+}
+.list {
+    height: 60px;
+}
+.form-control {
+    outline: none;
+    border: none;
+}
+.bi-plus-circle-fill {
+color: rgba(98, 42, 250,0.75);
+}
+.bi-check-square-fill {
+    color: blue;
+}
+.bi-x-square-fill {
+    color: red;
+}
+.todo-text {
+    flex: 1;
+}
